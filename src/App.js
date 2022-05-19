@@ -1,14 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import MySidebar from "./Components/MySidebar";
+
 import About from "./screens/About";
 import Contact from "./screens/Contact";
 import Course from "./screens/Course";
 import Staff from "./screens/Staff";
 import Free from "./screens/Free";
-import Home from "./screens/Home";
 import Results from "./screens/Results";
 import Settings from "./screens/Settings";
 import Students from "./screens/Students";

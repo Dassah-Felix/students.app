@@ -4,7 +4,7 @@ import { VscAccount } from "react-icons/vsc";
 import {AuthContext} from "../context/auth.context"
 
 const Header = () => {
-  const {user,error, success, loading}=useContext(AuthContext)
+  const {user}=useContext(AuthContext)
 
   console.log(user)
 

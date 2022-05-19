@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { navitems } from "../navitems";
-import Footer from "./Footer";
 
 const MySidebar = () => {
   return (

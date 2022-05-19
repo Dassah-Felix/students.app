@@ -5,7 +5,7 @@ import { AuthContext } from "../context/auth.context";
 function Register() {
 const Navigate = useNavigate();
 
-const { success, loading, user, authRegister } = useContext(AuthContext);
+const { success, loading, authRegister } = useContext(AuthContext);
 const [username, setUsername] =useState("")
 const [email, setEmail] = useState("");
 const [password, setPassword] = useState("");
