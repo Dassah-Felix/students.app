@@ -14,7 +14,7 @@ useEffect(() => {
   if (success) {
     Navigate("/dashboard");
   }
-}, [success]);
+}, [success, Navigate]);
   
 const handleSubmit = (e) => {
   e.preventDefault();

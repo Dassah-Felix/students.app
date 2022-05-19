@@ -15,7 +15,7 @@ function Login() {
     if (success) {
       Navigate("/dashboard")
     }
-  }, [success]
+  }, [success, Navigate]
   )
   const handleSubmit = (e) => {
     e.preventDefault();
